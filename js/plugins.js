@@ -172,11 +172,9 @@ window.log = function f(){
         
         function slideShowNext(noPreload){
             //fade out the current img, fade in the preloaded one
-            settings.bgImg.fadeOut(function(){
-                $(this).attr('src',settings.slideShowNextImg);
+            settings.bgImg.fadeOut(1000, function(){
+                $(this).attr('src',settings.slideShowNextImg).fadeIn();
             });
-            settings.bgImg.fadeIn();
-            
             startSlideShow(noPreload);  //start the countdown to the next image switch
         }
         
