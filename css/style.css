@@ -222,22 +222,6 @@ td { vertical-align: top; }
 /* BEGIN CSS FOR THE LANDING PAGE GALLERY */
 html,body{height:100%}
 body {margin:0; padding:0; background:#333; font-family:Helvetica, Arial, sans-serif; font-size:16px;}
-/* custom fonts */
-@font-face {
-    font-family: 'eurof55-webfont';
-    src: url('/fonts/eurof55-webfont.eot');
-    src: local('☺'), url('/fonts/eurof55-webfont.woff') format('woff'), url('/fonts/eurof55-webfont.ttf') format('truetype'), url('/fonts/eurof55-webfont.svg#webfont8xigBfG2') format('svg');
-}
-@font-face {
-    font-family: 'eurof35-webfont';
-    src: url('/fonts/eurof35-webfont.eot');
-    src: local('☺'), url('/fonts/eurof35-webfont.woff') format('woff'), url('/fonts/eurof35-webfont.ttf') format('truetype'), url('/fonts/eurof35-webfont.svg#webfont8xigBfG2') format('svg');
-}
-@font-face {
-    font-family: 'graublauweb-webfont';
-    src: url('/fonts/graublauweb-webfont.eot');
-    src: local('☺'), url('/fonts/graublauweb-webfont.woff') format('woff'), url('/fonts/graublauweb-webfont.ttf') format('truetype'), url('/fonts/graublauweb-webfont.svg#webfont8xigBfG2') format('svg');
-}
 .clear{clear:both;}
 a:link,a:visited,a:hover{color:#ddd;}
 a:hover{color:#fff; text-decoration:none;}
