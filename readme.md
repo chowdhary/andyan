@@ -6,3 +6,5 @@ jQuery fullscreen image gallery plugin
 
   //add your instructions here
   $("#someting").andyan();
+
+# Just a test.
