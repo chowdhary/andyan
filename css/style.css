@@ -240,12 +240,10 @@ a:hover{color:#fff; text-decoration:none;}
     border-radius: 0px 10px 10px 0px;
 }
 #thumbnails .content{clear:both;}
-#thumbnails .content h1{padding:5px; margin:10px; color:#fff; font-family:eurof55-webfont, Helvetica, Arial, sans-serif; font-size:48px;}
+#thumbnails .content h1{float: left; padding:5px; margin:10px; color:#fff; font-family:eurof55-webfont, Helvetica, Arial, sans-serif; font-size:48px;}
 #thumbnails .content h2{padding:5px; margin:10px 10px 0 10px; color:#fff; font-family:eurof35-webfont, Helvetica, Arial, sans-serif; font-size:24px;}
 #thumbnails .content p{padding:5px; margin:0 10px 10px 10px; color:#ddd; font-family:graublauweb-webfont, Helvetica, Arial, sans-serif; line-height:26px;}
-#thumbnails .content * {
-    float: left;
-}
+
 #nav { float: right !important; margin: 15px !important; }
 #nav img { border: none !important; cursor: pointer;}
 .light{font-family:eurof35-webfont, Helvetica, Arial, sans-serif;}
@@ -253,12 +251,7 @@ a:hover{color:#fff; text-decoration:none;}
 .lightgrey{color:#ddd;}
 .s36{font-size:36px;}
 .s24{font-size:24px;}
-#thumbnails a.thumb_link{
-    position:relative;
-    margin:0 0 1px 1px;
-    display:block;
-    float:left;
-}
+
 a.thumb_link img {
     opacity:0.7;
     filter:alpha(opacity=70);
